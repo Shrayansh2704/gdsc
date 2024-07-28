@@ -1,0 +1,255 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.Main_menu {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_background {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    padding: 2% 5%;
+    overflow: visible;
+}
+
+.left_section, .right_section {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.left_section{
+    left: 5%;
+    top: 64%;
+    width: 18%;
+    height: 53%;
+}
+.left_pic{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.right_section{
+    left: 83%;
+    font-size: 1vw;
+}
+
+.mid_section {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 77%;
+    left: 35%;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    transition: text-decoration 0.3s, opacity 0.3s;
+}
+
+span{
+    color: aliceblue;
+    font-family: Inter;
+    font-size: 1.2vw;
+}
+
+.planet:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+}
+
+.planet:active, .planet2:active {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    opacity: 0.75;
+}
+
+.dot {
+    position: relative;
+}
+
+.extension {
+    cursor: pointer;
+}
+
+.extension:hover {
+    opacity: 0.75;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    padding: 1%;
+    border-radius: 8%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    z-index: 1000;
+    width: max-content;
+    opacity: 0;
+    transition: opacity 0.3s;
+    height: auto;
+}
+
+.tooltip .planet2 {
+    padding: 1% 0;
+}
+
+.dot:hover .tooltip {
+    cursor: pointer;
+    display: flex;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu_mercury, .menu_venus, .menu_earth, .menu_mars, .menu_juipter, .menu_saturn, .menu_uranus, .menu_neptune, .right_shoot, .small_shoot {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+}
+
+.menu_mercury {
+    left: 0;
+    top: 9%;
+    height: 23.2%;
+    width: auto;
+}
+
+.menu_venus {
+    top: 45%;
+    left: 20%;
+    height: 6%;
+    width: auto;
+}
+
+.menu_earth {
+    left: 52%;
+    top: 12%;
+    height: 13.5%;
+    width: auto;
+}
+
+.menu_mars {
+    right: 0;
+    top: 14%;
+    height: 40.5%;
+    width: auto;
+}
+
+.menu_juipter {
+    bottom: 0;
+    right: 0;
+    height: 32.1%;
+    width: auto;
+}
+
+.menu_saturn {
+    left: 0;
+    top: 34%;
+    height: 51%;
+    width: auto;
+}
+
+.menu_uranus {
+    left: 0;
+    bottom: 0;
+    height: 13.5%;
+    width: auto;
+}
+
+.menu_neptune {
+    bottom: 0;
+    left: 40%;
+    height: 14%;
+    width: auto;
+}
+
+.right_shoot {
+    right: 5%;
+    height: 10%;
+}
+
+.small_shoot {
+    top: 44%;
+    left: 45%;
+    height: 6%;
+}
+
+
+
+.text1 {
+    position: absolute;
+    font-family: Orbitron;
+    font-size: 3vw;
+    font-weight: bold;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 15%;
+    left: 20%;
+    overflow: hidden;
+}
+
+.text2 {
+    position: absolute;
+    display: flex;
+    font-family: Inter;
+    color: aliceblue;
+    font-size: 0.8vw;
+    justify-content: center;
+    text-align: center;
+    left: 5%;
+    width: 95%;
+    top: 55%;
+    overflow: hidden;
+}
+
+.button {
+    position: absolute;
+    overflow: hidden;
+    left: 40%;
+    top: 65%;
+    width: 20%;
+    height: 10%;
+}
+
+.button img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    transition: opacity 0.3s;
+}
+
+.button:hover img {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.button:active {
+    cursor: pointer;
+    opacity: 0.50;
+}
+

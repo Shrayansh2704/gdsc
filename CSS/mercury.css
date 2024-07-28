@@ -1,0 +1,73 @@
+.Mercury {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mercury_background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mercury {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 5%;
+    overflow: hidden;
+    width: 35%;
+    height: auto;
+}
+
+.mercury_name {
+    display: flex;
+    position: absolute;
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 3vw;
+    color: aliceblue;
+    overflow: hidden;
+    left: 40%;
+    top: 2%;
+}
+
+.mercury_text {
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    font-size: 1vw;
+    color: aliceblue;
+    line-height: 1.5;
+    overflow: hidden;
+    left: 40%;
+    top: 25%;
+}
+
+.mercury_diameter{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 25%;
+    height: auto;
+}
+
+.mercury_day_temp{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 67%;
+    width: 24%;
+    height: auto;
+}
+
+.mercury_night_temp{
+    display: flex;
+    position: absolute;
+    top: 67%;
+    left: 40%;
+    width: 25%;
+    height: auto;
+}

@@ -1,0 +1,107 @@
+.Mars {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mars_background {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mars {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 37.5%;
+    height: auto;
+}
+
+.mars_arrow {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    left: 34.5%;
+    top: 50%;
+    width: 5.2%;
+    height: auto;
+}
+
+.mars_name {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    font-family: Orbitron;
+    font-size: 3vw;
+    font-weight: bold;
+    color: aliceblue;
+    left: 3.3%;
+    top: 1.8%;
+}
+
+.mars_text {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    font-family: Inter;
+    font-size: 1.2vw;
+    color: aliceblue;
+    line-height: 1.5;
+    left: 3.3%;
+    top: 22%;
+}
+
+.mars_moon {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    font-family: Orbitron;
+    font-size: 2vw;
+    font-weight: bold;
+    color: aliceblue;
+    left: 41.9%;
+    top: 50%;
+}
+
+.mars_moon_text {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    font-family: Inter;
+    font-size: 1.2vw;
+    color: aliceblue;
+    line-height: 1.5;
+    left: 41.9%;
+    top: 62%;
+}
+
+.mars_diameter{
+    display: flex;
+    position: absolute;
+    top: 9.8%;
+    right: 5%;
+    width: 24%;
+    height: auto;
+}
+
+.mars_day_temp{
+    display: flex;
+    position: absolute;
+    top: 36.8%;
+    right: 5%;
+    width: 24%;
+    height: auto;
+}
+
+.mars_night_temp{
+    display: flex;
+    position: absolute;
+    top: 64.8%;
+    right: 5%;
+    width: 24%;
+    height: auto;
+}

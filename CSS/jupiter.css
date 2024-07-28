@@ -1,0 +1,73 @@
+.Jupiter {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.jupiter_background {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jupiter_shade {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 40.2%;
+    height: auto;
+}
+
+.jupiter {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 52%;
+    height: auto;
+}
+
+.jupiter_name {
+    display: flex;
+    position: absolute;
+    font-family: Orbitron;
+    font-size: 3vw;
+    font-weight: bold;
+    color: aliceblue;
+    left: 3.3%;
+    top: 1.8%;
+}
+
+.jupiter_text {
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    font-size: 1.2vw;
+    color: aliceblue;
+    line-height: 1.5;
+    left: 3.3%;
+    top: 24%;
+}
+
+.jupiter_diameter{
+    display: flex;
+    position: absolute;
+    left: 3.3%;
+    top: 40%;
+    width: 24%;
+    height: auto;
+}
+
+.jupiter_temp{
+    display: flex;
+    position: absolute;
+    left: 3.3%;
+    top: 67%;
+    width: 24%;
+    height: auto;
+
+}

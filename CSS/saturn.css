@@ -1,0 +1,62 @@
+.Saturn {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.saturn_background {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.saturn {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55%; 
+    height: auto; 
+    overflow: hidden;
+}
+
+.saturn_name {
+    display: flex;
+    position: absolute;
+    font-family: Orbitron;
+    font-size: 3vw;
+    font-weight: bold;
+    color: aliceblue;
+    right: 5%;
+    top: 1.8%;
+}
+
+.saturn_text {
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    font-size: 1.2vw;
+    color: aliceblue;
+    line-height: 1.5;
+    right: 5%;
+    top: 22%;
+}
+
+.saturn_diameter{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    height: auto;
+    width: 24%;
+    top: 45%;
+}
+
+.saturn_temp{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    height: auto;
+    width: 24%;
+    top: 72%;
+}

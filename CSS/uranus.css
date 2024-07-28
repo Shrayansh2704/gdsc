@@ -1,0 +1,66 @@
+.Uranus {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.uranus_background {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.uranus {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    width: 94.5%; 
+    height: auto; 
+}
+
+.uranus_name {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    font-family: Orbitron;
+    font-size: 3vw;
+    font-weight: bold;
+    color: aliceblue;
+    top: 1.8%;
+    left: 3.3%;
+    width: auto; 
+}
+
+.uranus_text {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    font-family: Inter;
+    font-size: 1.2vw;
+    color: aliceblue;
+    line-height: 1.5;
+    left: 3.3%;
+    top: 22%;
+    width: auto; 
+}
+
+.uranus_diameter{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    height: auto;
+    width: 25%;
+    left: 42%;
+}
+
+.uranus_temp{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    height: auto;
+    width: 24.5%;
+    left: 69%;
+}

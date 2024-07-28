@@ -1,0 +1,240 @@
+.Footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_background {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer_planet {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.Box {
+    display: flex;
+    position: absolute;
+    left: 2.33%;
+    top: 13.7%;
+    width: 95.3%;
+    height: 77%;
+    background-color: rgb(14, 14, 14);
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.headline {
+    display: flex;
+    position: absolute;
+    font-family: Orbitron;
+    font-size: 1.45vw;
+    font-weight: bold;
+    color: aliceblue;
+    overflow: hidden;
+    left: 25%;
+}
+
+.footer_text {
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    font-size: 1vw;
+    color: aliceblue;
+    overflow: hidden;
+    left: 25%;
+    top: 23%;
+    line-height: 1.5;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: Inter;
+    background-color: aliceblue;
+    overflow: hidden;
+    top: 45%;
+    left: 30%;
+    border-radius: 32px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2),
+                0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    padding: 0.7%;
+    width: 40%;
+    height: 10%;
+}
+
+.search:hover {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.3),
+                0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.search_input {
+    font-family: Inter;
+    width: 70%;
+    height: 100%;
+    color: rgb(33, 33, 33);
+    font-size: 1vw;
+    border-radius: 25px;
+    border: none;
+    padding: 0 3%;
+    margin-right: 2%;
+    background-color: aliceblue;
+}
+
+.subscribe_button {
+    background: linear-gradient(45deg, #003f5c, #2f4b7c, #665191, #d45087);
+    color: aliceblue;
+    border: none;
+    border-radius: 25px;
+    width: 30%;
+    height: 100%;
+    font-size: 1vw;
+    font-family: Orbitron;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    padding-left: 4.5%;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe_button:hover {
+    background: linear-gradient(45deg, #2f4b7c, #003f5c, #d45087, #665191);
+    transform: scale(1.05);
+}
+
+.subscribe_button:active {
+    background: linear-gradient(45deg, #001f3f, #003f5c, #a64d79, #7a4d7c);
+    transform: scale(0.98);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.circle {
+    background-color: aliceblue;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 15%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer_navbar {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    left: 0%;
+    right: 0%;
+    top: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: visible;
+}
+
+.left {
+    display: flex;
+    width: 25%;
+}
+
+.foot_left_pic{
+    width: 80%;
+    height: 80%;
+}
+
+.mid {
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    justify-content: space-between;
+    align-items: center;
+    transition: text-decoration 0.3s, opacity 0.3s;
+}
+
+.planet3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+}
+
+.planet3:active {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    opacity: 0.75;
+}
+
+.dot2 {
+    position: relative;
+}
+
+.extension2 {
+    cursor: pointer;
+}
+
+.extension2:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.tooltip2 {
+    display: none;
+    position: absolute;
+    top: -450%;
+    left: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    z-index: 1000;
+    width: max-content;
+    opacity: 0;
+    transition: opacity 0.3s;
+    height: auto;
+    color: aliceblue;
+}
+
+.tooltip2 .planet4 {
+    padding: 2% 0;
+}
+
+.dot2:hover .tooltip2 {
+    cursor: pointer;
+    display: flex;
+    opacity: 1;
+}
+
+.planet4:active {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: 1vw;
+}
+

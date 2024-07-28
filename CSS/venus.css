@@ -1,0 +1,74 @@
+.Venus {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.venus_background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.venus_shade {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    height:auto;
+    width: 55%;
+}
+
+.venus {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    width: 50%;
+    height: auto;
+}
+
+.venus_name {
+    display: flex;
+    position: absolute;
+    font-family: Orbitron;
+    font-size: 3vw;
+    font-weight: bold;
+    color: aliceblue;
+    overflow: hidden;
+    top: 5%;
+    left: 5%;
+}
+
+.venus_text {
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    font-size: 1vw;
+    line-height: 1.5;
+    color: aliceblue;
+    overflow: hidden;
+    top: 30%;
+    left: 5%;
+}
+
+.venus_diameter{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    width: 24%;
+    height: auto;
+}
+
+.venus_temp{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    width: 24%;
+    height: auto;
+}
